@@ -6,6 +6,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
   <h1><xsl:value-of select="//dataset/title" /></h1>
   <h3><xsl:value-of select="//dataset/pubDate" /></h3>
+  <h3><a href="./">View Data Files</a></h3>
   <h4><a href="#datatable">
   <span class="glyphicon glyphicon-list-alt"></span>
     Data table(s) <span class="badge"><xsl:value-of select="count(//dataTable)" /></span></a></h4>
