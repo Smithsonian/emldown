@@ -7,6 +7,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <br/>
     <tr><h4>
       <td><xsl:value-of select="entityName"/></td>
+      <td>, </td>
       <td><xsl:value-of select="entityDescription"/></td></h4>
     </tr>
     <br/>
