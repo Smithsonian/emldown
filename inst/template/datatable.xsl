@@ -11,7 +11,12 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     </tr>
     <br/>
     <tr>
-    <a href ='./'<xsl:value-of select="physical/objectName"/>>Physical:<xsl:text>&#xA0;</xsl:text><xsl:value-of select="physical/objectName"/></a>
+    Physical:<xsl:element name="a">
+      <xsl:attribute name="href">
+        <xsl:value-of select="physical/objectName"/>
+      </xsl:attribute>
+      <xsl:"./"/>
+    </xsl:element>
     </tr>
     <div class="table-responsive">
 <table class="table table-striped">
